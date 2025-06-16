@@ -1,0 +1,69 @@
+body{
+    font-family: 'Open Sans', 'san-serif';
+    width: 780px;
+    margin:0 auto;
+}
+nav{
+    position:fixed;
+    z-index: 5;
+    width: 780px;
+    display:flex;
+    justify-content: space-between;
+    margin:0 auto;
+    top:0px;
+    height:90px;
+}
+
+h1{
+    font-size: 30px;
+}
+
+nav li{
+    display: inline-block;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+header{
+    margin:0 auto;
+}
+main{
+    margin-top: 90px;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 90px auto 0 auto;
+}
+
+#about_me{
+    height: 300px;
+    width:  780px;
+    padding-bottom: 100px;
+}
+#about_me #text{
+    width: 600px;
+    display:inline-block;
+}
+#about_me img{
+    display: inline-block;
+    height: 100%;
+    position: relative;
+    top: 20px;
+}
+
+#projects{
+    width:780px;
+}
+
+#skills{
+    width: 780px;
+}
+#skills ul li{
+    display:inline-block;
+    font-weight: 600;
+    margin: 0 10px 0 10px;
+    font-size: 20px;
+}
