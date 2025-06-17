@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+    <script src="buttons.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Musa Mammadli</h1>
+            <ul id="menu">
+                <li><a href="#about_me">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="about_me">
+            <h2>About Me</h2>
+            <div id="text_img">
+                <div id="text">
+                <p>Hi! I'm Musa, a dedicated student with a strong passion for technology and innovation. I'm planning to pursue a degree in Electrical Engineering at university, where I aim to deepen my understanding of how the world works — one circuit at a time.</p>
+                <p>In parallel, I'm enrolled in a Full-Stack Engineering course to build practical skills and gain hands-on experience. My goal is to start freelancing while studying, allowing me to grow professionally and financially during my academic journey.</p>
+                <p>So far, I’ve learned HTML, CSS, basic JavaScript, and how to use Git and GitHub to manage and track my projects efficiently. I'm excited to keep building and learning every day.</p>
+                <p>Fun fact, I am working on this project for roughly <span id="seconds">0</span> seconds</p>
+                </div>
+                <img src="./aboutMePhoto.jpg" alt="Photo of Me">
+            </div>
+        </div>
+        <div id="projects">
+            <h2>Projects</h2>
+            <div id="projects_list">
+                <details name="project">
+                    <summary>AzRun</summary>
+                    This is a website regarding running community in Azerbaijan.
+                    <a href="../html_and_css/azrun/index.html">Visit the Website</a>
+                </details>
+                <details name='project'>
+                    <summary>Charity Store</summary>
+                    This is a webiste where people can post their charity service and get paid to do it.
+                    <a href="../html_and_css/charity_store/index.html">Visit the Website</a>
+                </details>
+                <details name="project">
+                    <summary>Fotomatic</summary>
+                    This is a Website which I fixed so that it would be readable on any device.
+                    <a href="../html_and_css/fotomatic_broken/index.html">Visit the Website</a>
+                </details>
+                <details name="project">
+                    <summary>JavaScript Projects</summary>
+                    These are my js projects.
+                    <a href="../javascript/mystery-organism-starter/main.js">See the first code</a>
+                    <a href="../javascript/credit-card-checker-starter/main.js">See the Second code</a>
+                </details>
+            </div>
+        </div>
+        <div id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li id ='htmlSkill'>HTML</li>
+                <li id="cssSkill">CSS</li>
+                <li id="jsSkill">JS</li>
+                <li id="githubSkill">GitHub</li>
+                <li id="gitSkill">Git</li>
+            </ul>
+        </div>
+        <div id="contact">
+            <h2>Contact</h2>
+            <ul id="contact-info">
+                <li><strong>Email:</strong> ms18.cgafv@gmail.com</li>
+                <li><strong>Phone:</strong> +994 50 378 12 91</li>
+                <li><strong>Location:</strong> Baku, Azerbaijan</li>
+                <li><strong>GitHub:</strong> <a href="https://github.com/Mutebu" target="_blank">Mutebu</a></li>
+            </ul>
+        </div>
+    </main>
+</body>
+</html>
