@@ -125,6 +125,14 @@ main{
         padding: 10px 20px;
     }
 
+    #text_img{
+        flex-direction: column;
+    }
+
+    main{
+        padding: 0 10px;
+    }
+
     #about_me {
         flex-direction: column;
         text-align: center;
@@ -137,6 +145,7 @@ main{
 }
 #contact {
     width: 100%;
+    box-sizing: border-box;
     max-width: 780px;
     margin-top: 60px;
     padding: 30px;
